@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mi_mongodb_chava": {
+    "host": "ds161653.mlab.com",
+    "port": 61653,
+    "url": "mongodb://mchava:mchava123@ds161653.mlab.com:61653/mi_liga_db_chava",
+    "database": "mi_liga_db_chava",
+    "password": "mchava123",
+    "name": "mi_mongodb_chava",
+    "user": "mchava",
+    "connector": "mongodb"
+  },
+  "mysql_db_chava": {
+    "host": "db4free.net",
+    "port": 3306,
+    "url": "mysql://patmoslms:patmoslms@db4free.net/patmoslms",
+    "database": "patmoslms",
+    "password": "patmoslms",
+    "name": "mysql_db_chava",
+    "user": "patmoslms",
+    "connector": "mysql"
+  }
+}

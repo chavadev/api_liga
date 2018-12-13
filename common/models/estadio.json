@@ -1,0 +1,29 @@
+{
+  "name": "estadio",
+  "plural": "estadios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
